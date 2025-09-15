@@ -18,10 +18,10 @@ export default function WalletButton() {
       <div className="max-w-4xl mx-auto px-6">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Privy WebSocket Demo
+            React 学习演示平台
           </h1>
           <p className="text-xl text-gray-600">
-            区块链钱包集成 + WebSocket 实时通信演示
+            区块链钱包 + WebSocket + 状态管理 综合学习演示
           </p>
         </div>
 
@@ -83,6 +83,24 @@ export default function WalletButton() {
             </div>
           </Link>
 
+          <Link 
+            href="/state-management"
+            className="block bg-white rounded-lg shadow-sm p-6 hover:shadow-md transition-shadow"
+          >
+            <div className="flex items-center space-x-3 mb-3">
+              <div className="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center">
+                <span className="text-purple-600 text-lg">🔧</span>
+              </div>
+              <h3 className="text-lg font-semibold">状态管理学习</h3>
+            </div>
+            <p className="text-gray-600 text-sm">
+              学习最新的状态管理库：Redux Toolkit、Zustand 和 Jotai
+            </p>
+            <div className="mt-4 text-purple-600 text-sm font-medium">
+              开始学习 →
+            </div>
+          </Link>
+
           <div className="bg-white rounded-lg shadow-sm p-6 opacity-50">
             <div className="flex items-center space-x-3 mb-3">
               <div className="w-10 h-10 bg-gray-100 rounded-lg flex items-center justify-center">
@@ -92,18 +110,6 @@ export default function WalletButton() {
             </div>
             <p className="text-gray-400 text-sm">
               结合钱包和 WebSocket 的实时游戏演示（即将推出）
-            </p>
-          </div>
-
-          <div className="bg-white rounded-lg shadow-sm p-6 opacity-50">
-            <div className="flex items-center space-x-3 mb-3">
-              <div className="w-10 h-10 bg-gray-100 rounded-lg flex items-center justify-center">
-                <span className="text-gray-400 text-lg">📊</span>
-              </div>
-              <h3 className="text-lg font-semibold text-gray-500">数据监控</h3>
-            </div>
-            <p className="text-gray-400 text-sm">
-              实时区块链数据监控和推送（即将推出）
             </p>
           </div>
         </div>
