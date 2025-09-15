@@ -1,0 +1,23 @@
+{
+  "name": "websocket-test-server",
+  "version": "1.0.0",
+  "description": "Simple WebSocket server for testing",
+  "main": "simple-ws-server.js",
+  "scripts": {
+    "start": "node simple-ws-server.js",
+    "dev": "nodemon simple-ws-server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "websocket",
+    "server",
+    "testing"
+  ],
+  "author": "",
+  "license": "MIT"
+}
