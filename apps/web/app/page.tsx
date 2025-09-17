@@ -101,6 +101,24 @@ export default function WalletButton() {
             </div>
           </Link>
 
+          <Link 
+            href="/pub-sub"
+            className="block bg-white rounded-lg shadow-sm p-6 hover:shadow-md transition-shadow"
+          >
+            <div className="flex items-center space-x-3 mb-3">
+              <div className="w-10 h-10 bg-orange-100 rounded-lg flex items-center justify-center">
+                <span className="text-orange-600 text-lg">📡</span>
+              </div>
+              <h3 className="text-lg font-semibold">发布订阅机制</h3>
+            </div>
+            <p className="text-gray-600 text-sm">
+              学习 React 中各种发布订阅模式：Context API、EventEmitter、Custom Hooks、Observer
+            </p>
+            <div className="mt-4 text-orange-600 text-sm font-medium">
+              深入学习 →
+            </div>
+          </Link>
+
           <div className="bg-white rounded-lg shadow-sm p-6 opacity-50">
             <div className="flex items-center space-x-3 mb-3">
               <div className="w-10 h-10 bg-gray-100 rounded-lg flex items-center justify-center">
